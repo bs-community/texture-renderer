@@ -2,7 +2,7 @@
 
 Project first developed by [supermamie](https://github.com/supermamie),
 and [here](https://github.com/supermamie/php-Minecraft-3D-skin) is original project.
-The open source license of that original project is [BSD-3-Clause](https://github.com/supermamie/php-Minecraft-3D-skin/blob/7b50bc7a439adb1fb9c5a4f65b8db0e5484de95d/3d.php#L2-L26) and please see the `LICENSE-BSD` file at the root of current project.
+The open source license of that original project is [BSD-3-Clause](https://github.com/supermamie/php-Minecraft-3D-skin/blob/7b50bc7a439adb1fb9c5a4f65b8db0e5484de95d/3d.php#L2-L26) and please see the license file at this directory.
 
 Later translated to English by [cajogos](https://github.com/cajogos), and project is [here](https://github.com/cajogos/php-Minecraft-3D-Skin-Renderer).
 
