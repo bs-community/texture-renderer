@@ -13,7 +13,9 @@
         "intervention/image": "^2.5"
     },
     "autoload": {
-        "Blessing\\": "src/Blessing"
+        "psr-4": {
+            "Blessing\\": "src/Blessing"
+        }
     },
     "minimum-stability": "stable"
 }
