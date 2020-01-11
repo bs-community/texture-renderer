@@ -10,6 +10,7 @@
         }
     ],
     "require": {
+        "ext-gd": "*",
         "intervention/image": "^2.5"
     },
     "autoload": {
