@@ -6,7 +6,7 @@ use Intervention\Image\ImageManager;
 
 class TextureUtil
 {
-    public function isAlex($imageData): bool
+    public static function isAlex($imageData): bool
     {
         $manager = new ImageManager(['driver' => 'gd']);
         $image = $manager->make($imageData);
