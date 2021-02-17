@@ -60,6 +60,18 @@ $renderer = new CapeRenderer();
 $resource = $renderer->render($source, $height);  // returns GD resource
 ```
 
+### Utility Functions
+
+#### `isAlex`
+
+This utility can be used to detect if a texture is an alex texture.
+
+```php
+use Blessing\Renderer\TextureUtil;
+
+$isAlex = TextureUtil::isAlex($texture); // returns bool type
+```
+
 ## License
 
 MIT License
