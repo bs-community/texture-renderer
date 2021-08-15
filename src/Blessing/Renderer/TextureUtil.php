@@ -16,7 +16,7 @@ class TextureUtil
             $ratio = $width / 64;
             for ($x = 46 * $ratio; $x < 48 * $ratio; $x += 1) {
                 for ($y = 52 * $ratio; $y < 64 * $ratio; $y += 1) {
-                    if (!$this->checkPixel($image->pickColor($x, $y))) {
+                    if (!static::checkPixel($image->pickColor($x, $y))) {
                         return false;
                     }
                 }
@@ -28,7 +28,7 @@ class TextureUtil
         }
     }
 
-    protected function checkPixel(array $color): bool
+    protected static function checkPixel(array $color): bool
     {
         return $color[0] === 0 && $color[1] === 0 && $color[2] === 0;
     }
