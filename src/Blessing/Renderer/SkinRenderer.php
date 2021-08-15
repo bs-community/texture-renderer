@@ -71,9 +71,6 @@ class SkinRenderer
         $this->layers = $layers;
     }
 
-    /**
-     * @return resource|false
-     */
     public function render($source, $isAlex = false)
     {
         $this->playerSkin = ImageUtil::initGdResource($source);
